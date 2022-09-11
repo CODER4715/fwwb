@@ -1,0 +1,84 @@
+#add-flight,#modify-flight,#register,
+#register-foreign{
+	padding-top:120px;
+	padding-bottom: 100px;
+}
+#delete-flight,#select-flight,#buy-ticket{
+	padding-top: 120px;
+	background-color: #3d3f3f;
+	padding-bottom: 150px;
+}
+#delete-flight .title-section h2,
+#select-flight .title-section h2,
+#buy-ticket .title-section h2
+{
+	color: white;
+}
+#delete-flight .mylabel,#select-flight .mylabel,
+#buy-ticket .mylabel
+{
+	color: white;
+}
+.title-section h2{
+	letter-spacing: 10px;
+	font-family: inherit;
+}
+.mylabel{
+	color: #444444;
+	font-size: 18px;
+	padding-bottom: 10px;
+}
+.myform input{
+	  outline: 0;
+	  display: block;
+	  border: 1px solid #cccccc;
+	  width: 100%;
+	  max-width: 100%;
+	  padding: 8px 10px;
+	  text-align: center;
+	  font-size: 18px;
+	  letter-spacing: 2px;
+}
+.mainBtn{
+	border: 0;
+	width: 100px;
+	letter-spacing: 10px;
+	text-indent: 10px;
+}
+.button #submit-add,.button-black #submit-del,
+.button #submit-modify, .button-black #buy, .button-black #back{
+	margin-right: 80px;
+}
+.button{
+	text-align: center;
+	margin-top: 60px;
+}
+.button-black{
+	text-align: center;
+	margin-top: 60px;
+}
+.button-black input:hover{
+	background-color: slateblue
+}
+.form-group{
+	padding-bottom: 10px;
+}
+#nav{
+	text-align: center;
+}
+#nav .dropdown:hover{
+	cursor: pointer;
+}
+#nav .dropdown ul li a:hover{
+	background: #e3722e;
+	color: white;
+}
+#name_pinyin{
+	text-transform:uppercase;
+}
+#en,#nation2{
+	text-transform: capitalize
+}
+.team-member{
+	margin-bottom: 50px;
+}
